@@ -8500,6 +8500,7 @@
   header.header-appear nav.bootsnav.header-light .navbar-nav > li > a {
     color: #fff !important;
     padding-left: 20px !important;
+    /* custom */
   }
   nav.navbar.bootsnav ul.nav > li.dropdown > ul.dropdown-menu li a,
   nav.navbar.bootsnav ul.nav li.dropdown ul.dropdown-menu.mega-menu li a,
