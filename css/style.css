@@ -8198,7 +8198,8 @@ header.sticky
   ul.nav
   > li
   > a.active {
-  color: rgba(255, 255, 255, 0.6);
+  /* color: rgba(255, 255, 255, 0.6); */
+  color: #72af40 !important;
 }
 
 header.header-appear
@@ -15485,7 +15486,7 @@ header.sticky nav.navbar-scroll-fixed-top.header-dark {
 
 header.sticky nav.navbar.navbar-default.navbar-fixed-top ul.nav > li > a,
 header.sticky nav.navbar.navbar-default.navbar-top ul.nav > li > a {
-  color: #121212 !important;
+  color: #121212;
 }
 header.sticky nav.navbar.header-dark.white-link .navbar-nav,
 header.sticky nav.navbar.bootsnav.header-dark.white-link ul.nav,
