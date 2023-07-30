@@ -15485,7 +15485,7 @@ header.sticky nav.navbar-scroll-fixed-top.header-dark {
 
 header.sticky nav.navbar.navbar-default.navbar-fixed-top ul.nav > li > a,
 header.sticky nav.navbar.navbar-default.navbar-top ul.nav > li > a {
-  color: #121212 !important;
+  color: #121212;
 }
 header.sticky nav.navbar.header-dark.white-link .navbar-nav > li > a:hover,
 header.sticky nav.navbar.bootsnav.header-dark.white-link ul.nav > li > a:hover,
@@ -15508,5 +15508,13 @@ header.header-appear nav.header-dark-transparent .search-button:hover,
 header.header-appear nav.header-dark .search-button:hover,
 header.sticky nav.header-dark .search-button:hover,
 header.sticky nav.header-dark-transparent .search-button:hover {
-   color: #72af40 !important;
+  color: #72af40 !important;
+}
+.navbar-default.white-link .navbar-toggler .icon-bar,
+header.sticky .navbar-default.header-dark .navbar-toggler .icon-bar,
+header.sticky
+  .navbar-default.header-dark-transparent
+  .navbar-toggler
+  .icon-bar {
+  background: #121212 !important;
 }

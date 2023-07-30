@@ -8337,6 +8337,12 @@
 }
 
 @media (max-width: 991px) {
+  /* custom  */
+
+  header.sticky nav.navbar.navbar-default.navbar-top ul.nav > li > a {
+    color: #fff !important;
+  }
+
   /* typography */
   h1,
   h2,
