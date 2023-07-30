@@ -8339,9 +8339,26 @@
 @media (max-width: 991px) {
   /* custom  */
 
+  /* dark navigation */
+  header.header-appear nav.header-dark,
+  header.sticky nav.navbar-fixed-top.header-dark,
+  header.sticky nav.navbar-scroll-fixed-top.header-dark {
+    color: #232323 !important;
+  }
+  .navbar-default.white-link .navbar-toggler .icon-bar,
+  header.sticky .navbar-default.header-dark .navbar-toggler .icon-bar,
+  header.sticky
+    .navbar-default.header-dark-transparent
+    .navbar-toggler
+    .icon-bar {
+    background: #ffffff;
+  }
+
   header.sticky nav.navbar.navbar-default.navbar-top ul.nav > li > a {
     color: #fff !important;
   }
+
+  /* custom-end */
 
   /* typography */
   h1,
@@ -18627,6 +18644,20 @@
 }
 
 @media (max-width: 575px) {
+  .order1 {
+    order: 1 !important;
+  }
+
+  .order2 {
+    order: 2 !important;
+  }
+  .order3 {
+    order: 3 !important;
+  }
+  .order4 {
+    order: 4 !important;
+  }
+
   /* grid */
   .grid.xs-grid-6col li {
     width: 16.67%;
