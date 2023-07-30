@@ -15523,3 +15523,14 @@ header.sticky
   .icon-bar {
   background: #121212;
 }
+
+.style {
+  list-style: none;
+  padding-left: 0;
+}
+.style li i {
+  color: purple;
+  height: 30px;
+  width: 10px;
+  margin-right: 20px;
+}
