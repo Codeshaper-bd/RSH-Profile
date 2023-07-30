@@ -30,14 +30,17 @@
 
 <body>
   <!-- start header -->
+  <!-- start header -->
   <header>
     <!-- start navigation -->
-    <nav class="navbar navbar-default bootsnav nav-box-width bg-white navbar-expand-lg">
-      <div class="container-fluid nav-header-container">
+    <nav
+      class="navbar navbar-default bootsnav navbar-top header-dark background-transparent white-link navbar-expand-lg">
+      <div class="container-lg nav-header-container">
         <!-- start logo -->
         <div class="col-auto ps-0">
           <a href="index.html" title="RSH" class="logo"><img src="images/logo/rsh-logo.png"
-              data-at2x="images/logo/rsh-logo.png" class="logo-dark default" alt="RSH" /></a>
+              data-at2x="images/logo/rsh-logo.png" class="logo-dark" alt="RSH"><img src="images/logo/rsh-logo.png"
+              data-at2x="images/logo/rsh-logo.png" alt="RSH" class="logo-light default"></a>
         </div>
         <!-- end logo -->
         <div class="col accordion-menu pe-0 pe-md-3">
@@ -51,10 +54,18 @@
           <div class="navbar-collapse collapse justify-content-end" id="navbar-collapse-toggle-1">
             <ul id="accordion" class="nav navbar-nav no-margin alt-font text-normal" data-in="animate__fadeIn"
               data-out="animate__fadeOut">
+              
               <!-- start menu item -->
-              <li><a href="blog-standard-post.html">Home</a></li>
-              <li><a href="blog-gallery-post.html">Companies</a></li>
-              <li><a href="blog-slider-post.html">Contact</a></li>
+              <li class="dropdown megamenu-fw">
+                <a href="#">Home</a>
+              </li>
+              <!-- end menu item -->
+              <li class="dropdown simple-dropdown"><a href="#">Companies</a>
+              </li>
+              <li class="dropdown megamenu-fw">
+                <a href="#">Contact</a>
+              </li>
+
             </ul>
           </div>
         </div>
@@ -62,6 +73,7 @@
     </nav>
     <!-- end navigation -->
   </header>
+  <!-- end header -->
   <!-- end header -->
   <!-- start slider section -->
   <section class="wow animate__fadeIn example no-padding no-transition">
@@ -807,7 +819,7 @@
                     placeholder="Enter your email..." />
                   <button id="button-subscribe-newsletter" type="submit"
                     class="btn btn-arrow-small position-absolute border-color-medium-dark-gray submit">
-                    <i class="fas fa-caret-right no-margin-left"></i> 
+                    <i class="fas fa-caret-right no-margin-left"></i>
                   </button>
                 </div>
               </div>

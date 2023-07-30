@@ -15438,10 +15438,9 @@ footer .instafeed-grid.gutter-extra-large {
 }
 
 /* Custom */
-.navbar {
+/* .navbar {
   position: fixed !important;
-  box-shadow: 0px 1px 15px 2px rgba(0, 0, 0, 0.1) !important;
-}
+} */
 .navbar > .container-fluid {
   justify-content: center !important;
 }
@@ -15474,4 +15473,40 @@ header a.logo img {
 }
 .counter-box {
   padding: 80px !important;
+}
+
+/* dark navigation */
+header.header-appear nav.header-dark,
+header.sticky nav.navbar-fixed-top.header-dark,
+header.sticky nav.navbar-scroll-fixed-top.header-dark {
+  background-color: #ffffff !important;
+  box-shadow: 0px 1px 15px 2px rgba(0, 0, 0, 0.1) !important;
+}
+
+header.sticky nav.navbar.navbar-default.navbar-fixed-top ul.nav > li > a,
+header.sticky nav.navbar.navbar-default.navbar-top ul.nav > li > a {
+  color: #121212 !important;
+}
+header.sticky nav.navbar.header-dark.white-link .navbar-nav > li > a:hover,
+header.sticky nav.navbar.bootsnav.header-dark.white-link ul.nav > li > a:hover,
+header.sticky nav.header-dark .header-social-icon a:hover {
+  color: #72af40 !important;
+}
+
+header nav.navbar.white-link .navbar-nav > li > a:hover,
+nav.navbar.bootsnav.white-link ul.nav > li > a:hover,
+header nav.navbar.white-link .header-social-icon a:hover,
+nav.navbar.bootsnav.white-link .header-social-icon a:hover,
+header nav.navbar.white-link .header-searchbar a:hover,
+nav.navbar.bootsnav.white-link .header-searchbar a:hover,
+header nav.navbar.bootsnav ul.nav.white-link > li > a:hover,
+header.header-appear nav.header-dark-transparent .navbar-nav > li > a:hover,
+header.header-appear nav.header-dark .navbar-nav > li > a:hover,
+header.sticky nav.header-dark .navbar-nav > li > a:hover,
+header.sticky nav.header-dark-transparent .navbar-nav > li > a:hover,
+header.header-appear nav.header-dark-transparent .search-button:hover,
+header.header-appear nav.header-dark .search-button:hover,
+header.sticky nav.header-dark .search-button:hover,
+header.sticky nav.header-dark-transparent .search-button:hover {
+   color: #72af40 !important;
 }
