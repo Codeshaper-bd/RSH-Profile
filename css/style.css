@@ -15539,6 +15539,9 @@ header.sticky
   margin-right: 10px;
   height: 20px;
 }
+.style li p {
+  margin-bottom: 5px !important;
+}
 
 @media (max-width: 575px) {
   .NotGeneric-Title {
