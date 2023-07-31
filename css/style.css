@@ -15527,13 +15527,17 @@ header.sticky
 
 .style {
   list-style: none;
-  padding-left: 0;
+  padding-left: 0px;
 }
-.style li i {
-  color: purple;
-  height: 30px;
-  width: 10px;
-  margin-right: 20px;
+
+.style li {
+  display: flex;
+}
+
+.style li img {
+  width: 20px;
+  margin-right: 10px;
+  height: 20px;
 }
 
 @media (max-width: 575px) {
