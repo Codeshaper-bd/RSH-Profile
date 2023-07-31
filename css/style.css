@@ -15535,3 +15535,12 @@ header.sticky
   width: 10px;
   margin-right: 20px;
 }
+
+@media (max-width: 575px) {
+  .NotGeneric-Title {
+    font-size: 10px !important;
+  }
+  .NotGeneric-SubTitle {
+    font-size: 25px !important;
+  }
+}

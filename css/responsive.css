@@ -18694,6 +18694,18 @@
 
 @media (max-width: 575px) {
 
+/* custom  */
+
+
+.text-position{
+      left: 5% !important;
+    transform: translate(50%, 50%) !important;
+}
+
+.text-size{
+  font-size: 25px !important;
+}
+
 
   .order_1{
     order:1;
