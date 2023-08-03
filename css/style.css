@@ -13371,7 +13371,7 @@ figure {
 
 /* counter box style 1 */
 .counter-feature-box-1 {
-  height: 199px;
+  height: unset !important;
 }
 .counter-feature-box-1:hover {
   background: #72af40;
@@ -15546,6 +15546,10 @@ header.sticky
 }
 
 @media (max-width: 575px) {
+  /* counter box style 1 */
+.counter-feature-box-1 {
+  height: 199px;
+}
   .NotGeneric-Title {
     font-size: 10px !important;
   }
