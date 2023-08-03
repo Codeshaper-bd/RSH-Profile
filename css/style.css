@@ -15528,9 +15528,6 @@ header.sticky
 }
 
 .style {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   list-style: none;
   padding-left: 0px;
 }
@@ -15550,6 +15547,11 @@ header.sticky
 
 @media (max-width: 575px) {
   /* counter box style 1 */
+  .style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
   .counter-feature-box-1 {
     height: 199px;
   }
