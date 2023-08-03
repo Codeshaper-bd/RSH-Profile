@@ -15461,10 +15461,12 @@ header a.logo img {
   align-items: center;
 }
 .resize-logo {
-  height: 100px;
+  display: flex;
+  align-items: center !important;
+  height: 300px;
 }
 .resize-logo img {
-  max-height: 100px !important;
+  max-height: 200px !important;
 }
 .counter-feature-box-1 {
   border-radius: 10px !important;
